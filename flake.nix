@@ -1,3 +1,10 @@
+# nix develop .#rocm
+# python -m venv venv
+# source venv/bin/activate
+# pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm6.2.4
+# pip install -r requirements.txt
+# python main.py --preview-method auto
+
 {
     description = "AUTOMATIC1111/stable-diffusion-webui flake";
 
